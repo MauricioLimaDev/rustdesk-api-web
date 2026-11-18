@@ -576,5 +576,83 @@
   },
   "All": {
     "One": "All"
+  },
+  "UserImport": {
+    "One": "Import users"
+  },
+  "UserImportTip": {
+    "One": "CSV header: usuario;nome;email;grupo;admin;senha. Group must exist; empty password = generated."
+  },
+  "UserImportModel": {
+    "One": "Download template"
+  },
+  "UserImportSave": {
+    "One": "Save selected ({param})"
+  },
+  "UserImportPasswords": {
+    "One": "Download created passwords"
+  },
+  "UserImportSummary": {
+    "One": "{ok} ready · {existe} existing · {erro} with errors"
+  },
+  "UserImportPwdFile": {
+    "One": "from file"
+  },
+  "UserImportPwdAuto": {
+    "One": "generate"
+  },
+  "UserImportState_pronto": {
+    "One": "Ready"
+  },
+  "UserImportState_existe": {
+    "One": "Exists"
+  },
+  "UserImportState_erro": {
+    "One": "Error"
+  },
+  "UserImportState_criado": {
+    "One": "Created"
+  },
+  "UserImportEmpty": {
+    "One": "The file has no rows."
+  },
+  "UserImportNoUserCol": {
+    "One": "Missing \"usuario\" column."
+  },
+  "UserImportBadUser": {
+    "One": "Invalid username: 2-32 chars, no spaces."
+  },
+  "UserImportDuplicated": {
+    "One": "Duplicated in file."
+  },
+  "UserImportNoGroup": {
+    "One": "Group missing."
+  },
+  "UserImportGroupMissing": {
+    "One": "Group \"{param}\" does not exist."
+  },
+  "UserImportBadPwd": {
+    "One": "Password must have 4 to 32 chars."
+  },
+  "UserImportExists": {
+    "One": "Already exists; will be skipped."
+  },
+  "UserImportConfirm": {
+    "One": "Create {param} user(s)?"
+  },
+  "UserImportNotFoundAfter": {
+    "One": "Created but not found to set password."
+  },
+  "UserImportDone": {
+    "One": "{param} user(s) created."
+  },
+  "UserImportPwdWarning": {
+    "One": "This file has passwords: hand them out and delete it."
+  },
+  "Yes": {
+    "One": "Yes"
+  },
+  "No": {
+    "One": "No"
   }
 }

@@ -645,5 +645,83 @@
   },
   "All": {
     "One": "Todos"
+  },
+  "UserImport": {
+    "One": "Importar usuários"
+  },
+  "UserImportTip": {
+    "One": "CSV com cabeçalho: usuario;nome;email;grupo;admin;senha. Grupo precisa existir; senha vazia = gerada automaticamente."
+  },
+  "UserImportModel": {
+    "One": "Baixar modelo"
+  },
+  "UserImportSave": {
+    "One": "Salvar marcados ({param})"
+  },
+  "UserImportPasswords": {
+    "One": "Baixar senhas dos criados"
+  },
+  "UserImportSummary": {
+    "One": "{ok} prontos · {existe} já existem · {erro} com erro"
+  },
+  "UserImportPwdFile": {
+    "One": "do arquivo"
+  },
+  "UserImportPwdAuto": {
+    "One": "gerar"
+  },
+  "UserImportState_pronto": {
+    "One": "Pronto"
+  },
+  "UserImportState_existe": {
+    "One": "Já existe"
+  },
+  "UserImportState_erro": {
+    "One": "Erro"
+  },
+  "UserImportState_criado": {
+    "One": "Criado"
+  },
+  "UserImportEmpty": {
+    "One": "O arquivo não tem linhas para importar."
+  },
+  "UserImportNoUserCol": {
+    "One": "Falta a coluna \"usuario\" no cabeçalho."
+  },
+  "UserImportBadUser": {
+    "One": "Usuário inválido: 2 a 32 caracteres, sem espaço nem acento."
+  },
+  "UserImportDuplicated": {
+    "One": "Usuário repetido no arquivo."
+  },
+  "UserImportNoGroup": {
+    "One": "Grupo não informado."
+  },
+  "UserImportGroupMissing": {
+    "One": "Grupo \"{param}\" não existe no painel."
+  },
+  "UserImportBadPwd": {
+    "One": "Senha precisa ter de 4 a 32 caracteres."
+  },
+  "UserImportExists": {
+    "One": "Já cadastrado no painel; será ignorado."
+  },
+  "UserImportConfirm": {
+    "One": "Criar {param} usuário(s)?"
+  },
+  "UserImportNotFoundAfter": {
+    "One": "Criado, mas não encontrado para definir a senha."
+  },
+  "UserImportDone": {
+    "One": "{param} usuário(s) criado(s)."
+  },
+  "UserImportPwdWarning": {
+    "One": "O arquivo tem senhas: entregue a cada um e apague depois."
+  },
+  "Yes": {
+    "One": "Sim"
+  },
+  "No": {
+    "One": "Não"
   }
 }

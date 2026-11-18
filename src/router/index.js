@@ -143,6 +143,12 @@ export const asyncRoutes = [
         component: () => import('@/views/user/index.vue'),
       },
       {
+        path: 'import',
+        name: 'UserImport',
+        meta: { title: 'UserImport', icon: 'Upload' },
+        component: () => import('@/views/user/import.vue'),
+      },
+      {
         path: 'add',
         name: 'UserAdd',
         meta: { title: 'UserAdd', hide: true },
