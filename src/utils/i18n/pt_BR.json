@@ -725,10 +725,7 @@
     "One": "Não"
   },
   "DownloadEquipe-mac-arm64": {
-    "One": "Equipe para Mac (Apple Silicon M1 a M4)"
-  },
-  "DownloadEquipe-mac-intel": {
-    "One": "Equipe para Mac (Intel)"
+    "One": "Equipe para Mac (M1 ou posterior)"
   },
   "DownloadEquipeMacNota": {
     "One": "Versão em teste. Sem assinatura da Apple: na primeira vez, abra em Ajustes do Sistema > Privacidade e Segurança > Abrir mesmo assim, e libere Gravação de Tela e Acessibilidade."

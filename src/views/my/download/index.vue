@@ -37,7 +37,6 @@
     cliente: 'DownloadCliente',
     equipe: 'DownloadEquipe',
     'equipe-mac-arm64': 'DownloadEquipe-mac-arm64',
-    'equipe-mac-intel': 'DownloadEquipe-mac-intel',
   }
   const itens = ref([])
   const carregando = ref(false)
