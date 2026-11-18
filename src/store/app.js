@@ -20,7 +20,8 @@ const langs = {
   'zh-TW': { name: '中文繁体', value: zhTw, sideBarWidth: '210px' },
   'pt-BR': { name: 'Português (Brasil)', value: ptBr, sideBarWidth: '260px' },
 }
-const defaultLang = localStorage.getItem('lang') || navigator.language || 'pt-BR'
+// Padrão fixo em pt-BR; se a pessoa trocar no seletor, a escolha fica salva
+const defaultLang = langs[localStorage.getItem('lang')] ? localStorage.getItem('lang') : 'pt-BR'
 export const useAppStore = defineStore({
   id: 'App',
   state: () => ({
