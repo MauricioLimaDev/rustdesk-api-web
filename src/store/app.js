@@ -14,7 +14,7 @@ export const useAppStore = defineStore({
   id: 'App',
   state: () => ({
     setting: {
-      title: 'Rustdesk API Admin',
+      title: 'Suporte Appelsoft',
       hello: '',
       sideIsCollapse: false,
       logo,
