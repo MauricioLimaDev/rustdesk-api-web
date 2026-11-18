@@ -67,6 +67,7 @@ service.interceptors.response.use(
         message: res.message || 'error',
         type: 'error',
         duration: 5 * 1000,
+        grouping: true, // mesma mensagem repetida vira um aviso só, com contador
       })
 
       if (res.code === 403) {
@@ -87,6 +88,7 @@ service.interceptors.response.use(
       message: error.message,
       type: 'error',
       duration: 5 * 1000,
+      grouping: true,
     })
     return Promise.reject(error)
   },

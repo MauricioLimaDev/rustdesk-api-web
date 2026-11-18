@@ -90,8 +90,9 @@
       router.push({ path: redirect || '/', replace: true })
       return
     }
-    if (res.code === 110) {
-      // need captcha
+    if (res.code === 110 || captchaCode.value) {
+      // precisa de captcha, ou o atual já foi usado/errado: carrega outro e limpa o campo
+      form.captcha = ''
       loadCaptcha()
     }
   }
