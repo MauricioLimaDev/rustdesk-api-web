@@ -29,7 +29,7 @@
             <el-tag v-else>{{ T('Common') }}</el-tag>
           </template>
         </el-table-column>
-        <el-table-column prop="uuid" label="uuid" align="center" width="120" show-overflow-tooltip/>
+        <el-table-column prop="uuid" label="UUID" align="center" width="120" show-overflow-tooltip/>
         <el-table-column prop="created_at" :label="T('CreatedAt')" align="center"/>
         <el-table-column :label="T('CloseTime')" prop="close_time" align="center"/>
         <el-table-column :label="T('Actions')" align="center" width="150">

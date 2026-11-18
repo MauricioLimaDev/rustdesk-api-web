@@ -532,12 +532,34 @@
   "Remark": {
     "One": "Remark"
   },
-  "Downloads": { "One": "Downloads" },
-  "Baixar": { "One": "Download" },
-  "CopiarLinkPublico": { "One": "Copy public link" },
-  "DownloadCliente": { "One": "Client version" },
-  "DownloadClienteNota": { "One": "For supported machines: incoming only. This link can be sent to customers." },
-  "DownloadEquipe": { "One": "Team version" },
-  "DownloadEquipeNota": { "One": "For technicians: outgoing only. Download here with your login; there is no public link." },
-  "DownloadIndisponivel": { "One": "File not published on the server yet." }
+  "Downloads": {
+    "One": "Downloads"
+  },
+  "Baixar": {
+    "One": "Download"
+  },
+  "CopiarLinkPublico": {
+    "One": "Copy public link"
+  },
+  "DownloadCliente": {
+    "One": "Client version"
+  },
+  "DownloadClienteNota": {
+    "One": "For supported machines: incoming only. This link can be sent to customers."
+  },
+  "DownloadEquipe": {
+    "One": "Team version"
+  },
+  "DownloadEquipeNota": {
+    "One": "For technicians: outgoing only. Download here with your login; there is no public link."
+  },
+  "DownloadIndisponivel": {
+    "One": "File not published on the server yet."
+  },
+  "Client": {
+    "One": "Client"
+  },
+  "PlatformUA": {
+    "One": "Platform/UA"
+  }
 }

@@ -79,7 +79,7 @@
         </el-form-item>
 
         <el-form-item v-if="formData.pkce_enable" label="PkceMethod" prop="pkce_method">
-          <el-select v-model="formData.pkce_method" placeholder="Select PKCE Method">
+          <el-select v-model="formData.pkce_method" :placeholder="T('PkceMethod')">
             <el-option label="S256 (Recommended)" value="S256"></el-option>
             <el-option label="Plain" value="plain"></el-option>
           </el-select>
