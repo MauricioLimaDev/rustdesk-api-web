@@ -630,5 +630,20 @@
   },
   "PlatformUA": {
     "One": "Plataforma / navegador"
+  },
+  "SharedWithMe": {
+    "One": "Compartilhados comigo"
+  },
+  "SharedBooks": {
+    "One": "Livros compartilhados comigo"
+  },
+  "SharedBooksEmpty": {
+    "One": "Nenhum livro foi compartilhado com você ou com o seu grupo."
+  },
+  "SharedReadOnlyNote": {
+    "One": "Somente leitura no painel. Para conectar ou editar (se tiver permissão), use o app Equipe logado."
+  },
+  "All": {
+    "One": "Todos"
   }
 }

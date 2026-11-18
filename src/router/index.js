@@ -80,6 +80,12 @@ export const asyncRoutes = [
         component: () => import('@/views/my/address_book/index.vue'),
       },
       {
+        path: 'shared',
+        name: 'MyShared',
+        meta: { title: 'SharedWithMe', icon: 'Share' },
+        component: () => import('@/views/my/shared/index.vue'),
+      },
+      {
         path: 'tag',
         name: 'MyTagList',
         meta: { title: 'Tags', icon: 'CollectionTag' /*keepAlive: true*/ },

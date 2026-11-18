@@ -561,5 +561,20 @@
   },
   "PlatformUA": {
     "One": "Platform/UA"
+  },
+  "SharedWithMe": {
+    "One": "Shared with me"
+  },
+  "SharedBooks": {
+    "One": "Books shared with me"
+  },
+  "SharedBooksEmpty": {
+    "One": "No books shared with you or your group."
+  },
+  "SharedReadOnlyNote": {
+    "One": "Read-only here. To connect or edit (if allowed), use the Team app logged in."
+  },
+  "All": {
+    "One": "All"
   }
 }
