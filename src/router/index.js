@@ -92,6 +92,12 @@ export const asyncRoutes = [
         component: () => import('@/views/my/share_record/index.vue'),
       },
       {
+        path: 'download',
+        name: 'MyDownload',
+        meta: { title: 'Downloads', icon: 'Download' },
+        component: () => import('@/views/my/download/index.vue'),
+      },
+      {
         path: 'loginLog',
         name: 'MyLoginLog',
         meta: { title: 'LoginLog', icon: 'List' /*keepAlive: true*/ },

@@ -193,5 +193,13 @@
   "or login in with": { "One": "ou entre com" },
   "Optional, default is": { "One": "Opcional, o padrão é" },
   "Check your IdP docs, without": { "One": "Veja a documentação do seu provedor, sem" },
-  "For OIDC login without a password, enter any 4-20 letters": { "One": "Para login OIDC sem senha, digite de 4 a 20 letras quaisquer" }
+  "For OIDC login without a password, enter any 4-20 letters": { "One": "Para login OIDC sem senha, digite de 4 a 20 letras quaisquer" },
+  "Downloads": { "One": "Downloads" },
+  "Baixar": { "One": "Baixar" },
+  "CopiarLinkPublico": { "One": "Copiar link público" },
+  "DownloadCliente": { "One": "Versão do cliente" },
+  "DownloadClienteNota": { "One": "Para as máquinas atendidas: só recebe acesso. Instale com o script instalar-cliente.ps1. Este link pode ser enviado ao cliente." },
+  "DownloadEquipe": { "One": "Versão da equipe" },
+  "DownloadEquipeNota": { "One": "Para os técnicos: só conecta em outras máquinas. Baixe aqui com seu login; não há link público." },
+  "DownloadIndisponivel": { "One": "Arquivo ainda não publicado no servidor." }
 }
