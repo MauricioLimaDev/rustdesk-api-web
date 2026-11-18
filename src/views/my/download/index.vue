@@ -5,8 +5,11 @@
       <el-row :gutter="20">
         <el-col :xs="24" :md="12" v-for="item in itens" :key="item.tipo" style="margin-bottom: 20px">
           <el-card shadow="never">
-            <h3 style="margin-top: 0">{{ T(item.tipo === 'cliente' ? 'DownloadCliente' : 'DownloadEquipe') }}</h3>
-            <p style="min-height: 44px">{{ T(item.tipo === 'cliente' ? 'DownloadClienteNota' : 'DownloadEquipeNota') }}</p>
+            <h3 style="margin-top: 0">
+              {{ T(titulo[item.tipo] || item.tipo) }}
+              <el-tag v-if="item.experimental" type="warning" size="small" style="margin-left: 6px">{{ T('Experimental') }}</el-tag>
+            </h3>
+            <p style="min-height: 44px">{{ T(item.tipo === 'cliente' ? 'DownloadClienteNota' : (item.experimental ? 'DownloadEquipeMacNota' : 'DownloadEquipeNota')) }}</p>
             <template v-if="item.disponivel">
               <p style="color: var(--el-text-color-secondary)">
                 {{ item.nome }} · {{ (item.tamanho / 1024 / 1024).toFixed(1) }} MB · {{ T('UpdatedAt') }} {{ item.atualizado }}
@@ -30,6 +33,12 @@
   import { T } from '@/utils/i18n'
   import { info, baixar } from '@/api/download'
 
+  const titulo = {
+    cliente: 'DownloadCliente',
+    equipe: 'DownloadEquipe',
+    'equipe-mac-arm64': 'DownloadEquipe-mac-arm64',
+    'equipe-mac-intel': 'DownloadEquipe-mac-intel',
+  }
   const itens = ref([])
   const carregando = ref(false)
   const baixando = ref('')

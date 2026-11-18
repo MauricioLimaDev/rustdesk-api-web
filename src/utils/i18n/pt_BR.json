@@ -617,7 +617,7 @@
     "One": "Versão da equipe"
   },
   "DownloadEquipeNota": {
-    "One": "Para os técnicos: só conecta em outras máquinas. Baixe aqui com seu login; não há link público."
+    "One": "Para os técnicos: conecta em outras máquinas e também pode ser acessada por outro técnico. Grava as sessões automaticamente. Baixe aqui com seu login; não há link público."
   },
   "DownloadIndisponivel": {
     "One": "Arquivo ainda não publicado no servidor."
@@ -723,5 +723,17 @@
   },
   "No": {
     "One": "Não"
+  },
+  "DownloadEquipe-mac-arm64": {
+    "One": "Equipe para Mac (Apple Silicon M1 a M4)"
+  },
+  "DownloadEquipe-mac-intel": {
+    "One": "Equipe para Mac (Intel)"
+  },
+  "DownloadEquipeMacNota": {
+    "One": "Versão em teste. Sem assinatura da Apple: na primeira vez, abra em Ajustes do Sistema > Privacidade e Segurança > Abrir mesmo assim, e libere Gravação de Tela e Acessibilidade."
+  },
+  "Experimental": {
+    "One": "Experimental"
   }
 }

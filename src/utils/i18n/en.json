@@ -654,5 +654,17 @@
   },
   "No": {
     "One": "No"
+  },
+  "DownloadEquipe-mac-arm64": {
+    "One": "Team for Mac (Apple Silicon)"
+  },
+  "DownloadEquipe-mac-intel": {
+    "One": "Team for Mac (Intel)"
+  },
+  "DownloadEquipeMacNota": {
+    "One": "Test version, not signed by Apple: on first run allow it in System Settings > Privacy & Security > Open Anyway, then grant Screen Recording and Accessibility."
+  },
+  "Experimental": {
+    "One": "Experimental"
   }
 }
