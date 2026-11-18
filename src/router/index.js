@@ -70,7 +70,7 @@ export const asyncRoutes = [
       {
         path: 'address_book_collection',
         name: 'MyAddressBookCollection',
-        meta: { title: 'AddressBookName', icon: 'Collection' /*keepAlive: true*/ },
+        meta: { title: 'AddressBookCollection', icon: 'Collection' /*keepAlive: true*/ },
         component: () => import('@/views/my/address_book/collection.vue'),
       },
       {
