@@ -12,7 +12,7 @@
             <p style="min-height: 44px">{{ T(item.tipo === 'cliente' ? 'DownloadClienteNota' : (item.experimental ? 'DownloadEquipeMacNota' : 'DownloadEquipeNota')) }}</p>
             <template v-if="item.disponivel">
               <p style="color: var(--el-text-color-secondary)">
-                {{ item.nome }} · {{ (item.tamanho / 1024 / 1024).toFixed(1) }} MB · {{ T('UpdatedAt') }} {{ item.atualizado }}
+                <template v-if="item.versao">{{ T('Version') }} {{ item.versao }} · </template>{{ item.nome }} · {{ (item.tamanho / 1024 / 1024).toFixed(1) }} MB · {{ T('UpdatedAt') }} {{ item.atualizado }}
               </p>
               <el-button type="primary" :loading="baixando === item.tipo" @click="baixarItem(item)">
                 {{ T('Baixar') }}

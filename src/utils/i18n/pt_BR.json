@@ -611,13 +611,13 @@
     "One": "Versão do cliente"
   },
   "DownloadClienteNota": {
-    "One": "Para as máquinas atendidas: só recebe acesso. Instale com o script instalar-cliente.ps1. Este link pode ser enviado ao cliente."
+    "One": "Para as máquinas atendidas: só recebe acesso. Basta instalar; as próximas versões chegam sozinhas. Este link pode ser enviado ao cliente."
   },
   "DownloadEquipe": {
     "One": "Versão da equipe"
   },
   "DownloadEquipeNota": {
-    "One": "Para os técnicos: conecta em outras máquinas e também pode ser acessada por outro técnico. Grava as sessões automaticamente. Baixe aqui com seu login; não há link público."
+    "One": "Para os técnicos: conecta em outras máquinas e também pode ser acessada por outro técnico. Grava as sessões automaticamente e se atualiza sozinha. Baixe aqui com seu login; não há link público."
   },
   "DownloadIndisponivel": {
     "One": "Arquivo ainda não publicado no servidor."
