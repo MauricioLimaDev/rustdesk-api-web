@@ -547,6 +547,12 @@
   "DownloadClienteNota": {
     "One": "For supported machines: incoming only. This link can be sent to customers."
   },
+  "DownloadClienteX86": {
+    "One": "Client for 32-bit Windows"
+  },
+  "DownloadClienteX86Nota": {
+    "One": "Only for 32-bit Windows machines. Simpler look, same client features; updates itself."
+  },
   "DownloadEquipe": {
     "One": "Team version"
   },

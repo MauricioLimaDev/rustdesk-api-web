@@ -9,7 +9,7 @@
               {{ T(titulo[item.tipo] || item.tipo) }}
               <el-tag v-if="item.experimental" type="warning" size="small" style="margin-left: 6px">{{ T('Experimental') }}</el-tag>
             </h3>
-            <p style="min-height: 44px">{{ T(item.tipo === 'cliente' ? 'DownloadClienteNota' : (item.experimental ? 'DownloadEquipeMacNota' : 'DownloadEquipeNota')) }}</p>
+            <p style="min-height: 44px">{{ T(nota[item.tipo] || (item.experimental ? 'DownloadEquipeMacNota' : 'DownloadEquipeNota')) }}</p>
             <template v-if="item.disponivel">
               <p style="color: var(--el-text-color-secondary)">
                 <template v-if="item.versao">{{ T('Version') }} {{ item.versao }} · </template>{{ item.nome }} · {{ (item.tamanho / 1024 / 1024).toFixed(1) }} MB · {{ T('UpdatedAt') }} {{ item.atualizado }}
@@ -33,9 +33,14 @@
   import { T } from '@/utils/i18n'
   import { info, baixar } from '@/api/download'
 
+  const nota = {
+    cliente: 'DownloadClienteNota',
+    'cliente-x86': 'DownloadClienteX86Nota',
+  }
   const titulo = {
     cliente: 'DownloadCliente',
     equipe: 'DownloadEquipe',
+    'cliente-x86': 'DownloadClienteX86',
     'equipe-mac-arm64': 'DownloadEquipe-mac-arm64',
   }
   const itens = ref([])

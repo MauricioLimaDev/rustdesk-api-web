@@ -613,6 +613,12 @@
   "DownloadClienteNota": {
     "One": "Para as máquinas atendidas: só recebe acesso. Basta instalar; as próximas versões chegam sozinhas. Este link pode ser enviado ao cliente."
   },
+  "DownloadClienteX86": {
+    "One": "Cliente para Windows 32 bits"
+  },
+  "DownloadClienteX86Nota": {
+    "One": "Só para máquinas com Windows 32 bits, onde a versão normal mostra \"Este aplicativo não pode ser executado em seu PC\". Visual mais simples, mesmas funções do cliente; atualiza sozinho."
+  },
   "DownloadEquipe": {
     "One": "Versão da equipe"
   },
